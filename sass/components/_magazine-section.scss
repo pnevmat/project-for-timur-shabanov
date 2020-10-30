@@ -1,0 +1,41 @@
+.magazine-section-container {
+    margin-bottom: 40px;
+}
+.magazine-container {
+   margin-bottom: 70px;
+}
+.description-container {
+    position: absolute;
+    top: 64%;
+    left: 39%;
+    padding: 20px 16px 20px 16px;
+    background-color: #ffffff;
+    width: 207px;
+    height: 67px;
+
+    // outline: 1px solid tomato;
+}
+.trends {
+    top: 79%;
+    left: 39%;
+}
+.description {
+    font-size: 11px;
+    text-align: left;
+}
+.jew-item-tiger-ring {
+    position: absolute;
+    top: 36%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+}
+.jew-item-tiger-snake {
+    position: absolute;
+    top: 30%;
+    left: 62%;
+    transform: translate(-50%, -50%);
+}
+.magazine-button-container {
+    max-width: 700px;
+    text-align: right;
+}

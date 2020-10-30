@@ -4,179 +4,177 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lux Fair</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.min.css"/>
 </head>
 <body>
-    <header>
-        <button>
-            <img src="./img/mobile-menu-icon.png" alt="" srcset="./img/mobile-menu-icon@2x.png 2x, ./img/mobile-menu-icon@3x.png 3x" />
-        </button>
+    <header class="container header">
         <div>
-            Main modal
+            <button class="menu-button">
+                <img class="menu-icon" src="./img/mobile-menu-icon.png" alt="" srcset="./img/mobile-menu-icon@2x.png 2x, ./img/mobile-menu-icon@3x.png 3x" />
+            </button>
+            <button class="magnifying-glass-button">
+                <img class="magnifying-glass" src="./img/magnifying-glass-icon.png" alt="" srcset="./img/magnifying-glass-icon@2x.png 2x, ./img/magnifying-glass-icon@3x.png 3x" />
+            </button>
+        </div>
+        <div class="is-hidden">
+            <p>Main modal</p>
             <button>
                 <img src="./img/profile-icon.png" alt="" srcset="./img/profile-icon@2x.png 2x, ./img/profile-icon@3x.png 3x" />
             </button>
-            <button>
-                Ювелирные украшения
-            </button>
-            <button>
-                Подарки
-            </button>
+            <button>Ювелирные украшения</button>
+            <button>Подарки</button>
             <a href="#">Бренды</a>
             <a href="#">Акции</a>
             <a href="#">Журнал</a>
         </div>
-        <div>
-            profile modal
+        <div class="is-hidden">
+            <p>profile modal</p>
         </div>
-        <div>
-            juvelry modal
+        <div class="is-hidden">
+            <p>juvelry modal</p>
         </div>
-        <div>
-            gifts modal
+        <div class="is-hidden">
+            <p>gifts modal</p>
         </div>
-        <button>
-            magnifying glass
-        </button>
-        <img src="./img/logo-icon.png" alt="" srcset="./img/logo-icon@2x.png 2x, ./img/logo-icon@3x.png 3x" />
-        <button>
-            <img src="./img/favorites-icon.png" alt="" srcset="./img/favorites-icon@2x.png 2x, ./img/favorites-icon@3x.png 3x" />
-        </button>
+        <img class="logo" src="./img/logo-icon.png" alt="" srcset="./img/logo-icon@2x.png 2x, ./img/logo-icon@3x.png 3x" />
         <div>
+            <button class="favorites-button">
+                <img class="favorites-icon" src="./img/favorites-icon.png" alt="" srcset="./img/favorites-icon@2x.png 2x, ./img/favorites-icon@3x.png 3x" />
+            </button>
+            <button class="curt-button">
+                <img class="curt-icon" src="./img/cart-icon.png" alt="" srcset="./img/cart-icon@2x.png 2x, ./img/cart-icon@3x.png 3x" />
+            </button>
+        </div>
+        <div class="is-hidden">
             <h2>Избранное</h2>
             <h3>Рекомендуем</h3>
             <div>slider</div>
             favorites modal
         </div>
-        <button>
-            <img src="./img/cart-icon.png" alt="" srcset="./img/cart-icon@2x.png 2x, ./img/cart-icon@3x.png 3x" />
-        </button>
-        <div>
+        <div class="is-hidden">
             <h2>Корзина</h2>
             <h3>Рекомендуем</h3>
             <div>slider</div>
             cart modal
         </div>
     </header>
-    <hero>
-        <img src="./img/hero-image.jpg" alt="" srcset="./img/hero-image@2x.jpg 2x, ./img/hero-image@3x.jpg 3x" />
-    </hero>
-    <section>
-        <h1>Rivoli Balance</h1>
-        <h2>Весна 2020</h2>
-        <button>
-            Подробнее
-        </button>
-        <h2>Хиты продаж</h2>
-        <div>
-            slider
-        </div>
-    </section>
-    <section>
-        <div>
-            <h2>Для неё</h2>
-            background image
-        </div>
-        <img src="./img/main-image-for-her.jpg" alt="" srcset="./img/main-image-for-her@2x.jpg 2x, ./img/main-image-for-her@3x.jpg 3x" />
-        <ul>
-            <li><button>Украшения</button></li>
-            <li><button>Подарки</button></li>
-            <li><button>Бренды</button></li>
-        </ul>
-        <div>
-            slider
-        </div>
-    </section>
-    <section>
-        <div>
-            <h2>Для него</h2>
-            background image
-        </div>
-        <img src="./img/main-image-for-him.jpg" alt="" srcset="./img/main-image-for-him@2x.jpg 2x, ./img/main-image-for-him@3x.jpg 3x" />
-        <ul>
-            <li><button>Украшения</button></li>
-            <li><button>Подарки</button></li>
-            <li><button>Бренды</button></li>
-        </ul>
-        <div>
-            slider
-        </div>
-    </section>
-    <section>
-        <div>
-            <h2>Журнал</h2>
+    <main>
+        <section class="container hero-container">
             <div>
-                <img src="./img/what-decoration-to-wear.jpg" alt="" srcset="./img/what-decoration-to-wear@2x.jpg 2x, ./img/what-decoration-to-wear@3x.jpg 3x" />
-                <div>
-                    <p>КАКИЕ УКРАШЕНИЯ НОСИТЬ С МАЛЕНЬКИМ ЧЕРНЫМ ПЛАТЬЕМ</p>
-                </div>
+                <img class="hero-image" src="./img/hero-image.jpg" alt="" srcset="./img/hero-image@2x.jpg 2x, ./img/hero-image@3x.jpg 3x" />
             </div>
-            <div>
-                <img src="./img/jew-item1.png" alt="" srcset="./img/jew-item1@2x.png 2x, ./img/jew-item1@3x.png 3x" />
-                <img src="./img/jew-item2.png" alt="" srcset="./img/jew-item2@2x.png 2x, ./img/jew-item2@3x.png 3x" />
-                <div>
-                    <p>КАКИЕ УКРАШЕНИЯ СЕЙЧАС В МОДЕ – АКТУАЛЬНЫЕ ТРЕНДЫ 2020 ГОДА</p>
-                </div>
+        </section>
+        <section class="container collection-section">
+            <h1 class="main-header">Rivoli Balance</h1>
+            <h2 class="section-header">Весна 2020</h2>
+            <button class="button collection-button">Подробнее</button>
+            <h3 class="collection-header">Хиты продаж</h3>
+            <div class="slider">
+                slider
             </div>
-            <button>
-                Смотреть ещё
-            </button>
-            <ul>
-                <li><a href="#" alt="" /></li>
-                <li><a href="#" alt="" /></li>
-                <li><a href="#" alt="" /></li>
-                <li><a href="#" alt="" /></li>
-                <li><a href="#" alt="" /></li>
-                <li><a href="#" alt="" /></li>
-            </ul>
-        </div>
-    </section>
-    <footer>
-        <div>
-            <adress>
-                <p>+ 7 (499) 649-88-95</p>
-                <p>Москва, ул.Усачева,д.22, этаж 1</p>
-            </adress>
+        </section>
+        <section class="container gender-section-container relative">
+            <div class="for-her-section relative">
+                <img class="for-her-section-bg-image" src="./img/bg-image-for-her.jpg" alt="" srcset="./img/bg-image-for-her@2x.jpg 2x, ./img/bg-image-for-her@3x.jpg 3x" />
+                <h2 class="for-her-header">Для неё</h2>
+            </div>
+            <img class="for-her-section-image" src="./img/main-image-for-her.jpg" alt="" srcset="./img/main-image-for-her@2x.jpg 2x, ./img/main-image-for-her@3x.jpg 3x" />
+            <button type="button" class="slider-button">Украшения</button>
+            <button type="button" class="slider-button">Подарки</button>
+            <button type="button" class="slider-button">Бренды</button>
             <div>
+                slider
+            </div>
+        </section>
+        <section class="container gender-section-container relative">
+            <div class="for-him-section relative">
+                <img class="for-him-section-bg-image" src="./img/bg-image-for-him.jpg" alt="" srcset="./img/bg-image-for-him@2x.jpg 2x, ./img/bg-image-for-him@3x.jpg 3x" />
+                <h2 class="for-him-header">Для него</h2>
+            </div>
+            <img class="for-him-section-image" src="./img/main-image-for-him.jpg" alt="" srcset="./img/main-image-for-him@2x.jpg 2x, ./img/main-image-for-him@3x.jpg 3x" />
+                <button class="slider-button">Украшения</button>
+                <button class="slider-button">Подарки</button>
+                <button class="slider-button">Бренды</button>
+            <div>
+                slider
+            </div>
+        </section>
+        <section class="container magazine-section-container">
+            <div>
+                <h2 class="magazine-header">Журнал</h2>
+                <div class="magazine-container relative">
+                    <img src="./img/what-decoration-to-wear.jpg" alt="" srcset="./img/what-decoration-to-wear@2x.jpg 2x, ./img/what-decoration-to-wear@3x.jpg 3x" />
+                    <div class="description-container">
+                        <p class="description">КАКИЕ УКРАШЕНИЯ НОСИТЬ С МАЛЕНЬКИМ ЧЕРНЫМ ПЛАТЬЕМ</p>
+                    </div>
+                </div>
+                <div class="magazine-container relative">
+                    <img src="./img/what-in-trend-bg-image.jpg" alt="" srcset="./img/what-in-trend-bg-image@2x.jpg 2x, ./img/what-in-trend-bg-image@3x.jpg 3x" />
+                    <img class="jew-item-tiger-ring" src="./img/jew-item1.png" alt="" srcset="./img/jew-item1@2x.png 2x, ./img/jew-item1@3x.png 3x" />
+                    <img class="jew-item-tiger-snake" src="./img/jew-item2.png" alt="" srcset="./img/jew-item2@2x.png 2x, ./img/jew-item2@3x.png 3x" />
+                    <div class="description-container trends">
+                        <p class="description">КАКИЕ УКРАШЕНИЯ СЕЙЧАС В МОДЕ – АКТУАЛЬНЫЕ ТРЕНДЫ 2020 ГОДА</p>
+                    </div>
+                </div>
+                <div class="magazine-button-container">
+                    <button class="button magazine-button">Смотреть ещё</button>
+                </div>
                 <ul>
+                    <li><a href="#" alt="" ></a></li>
+                    <li><a href="#" alt="" ></a></li>
+                    <li><a href="#" alt="" ></a></li>
+                    <li><a href="#" alt="" ></a></li>
+                    <li><a href="#" alt="" ></a></li>
+                    <li><a href="#" alt="" ></a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="container">
+        <div>
+            <div class="adress-container">
+                <p class="adress-text" href="tel:+74996498895">+ 7 (499) 649-88-95</p>
+                <p class="adress-text">Москва, ул.Усачева,д.22, этаж 1</p>
+            </div>
+            <div class="link-container">
+                <ul class="link-list">
                     <li>
-                        <a href="#">О магазине</a>
+                        <a class="link footer-link" href="#">О магазине</a>
                     </li>
                     <li>
-                        <a href="#">Контакты</a>
+                        <a class="link footer-link" href="#">Контакты</a>
                     </li>
                     <li>
-                        <a href="#">Доставка и Оплата</a>
+                        <a class="link footer-link" href="#">Доставка и Оплата</a>
                     </li>
                     <li>
-                        <a href="#">Магазины</a>
+                        <a class="link footer-link" href="#">Магазины</a>
                     </li>
                     <li>
-                        <a href="#">Гарантия</a>
+                        <a class="link footer-link" href="#">Гарантия</a>
                     </li>
                     <li>
-                        <a href="#">Журнал</a>
+                        <a class="link footer-link" href="#">Журнал</a>
                     </li>
                 </ul>
             </div>
-            <div>
-                <a href="#">
+            <div class="social-link-container">
+                <a class="social-link" href="#">
                     <img src="./img/instagram-icon.png" alt="" srcset="./img/instagram-icon@2x.png 2x, ./img/instagram-icon@3x.png 3x" />
                 </a>
-                <a href="#">
+                <a class="social-link" href="#" class="link">
                     <img src="./img/fb-icon.png" alt="" srcset="./img/fb-icon@2x.png 2x, ./img/fb-icon@3.png 3x" />
                 </a>
-                <a href="#">
+                <a class="social-link" href="#">
                     <img src="./img/vk-icon.png" alt="" srcset="./img/vk-icon@2x.png 2x, ./img/vk-icon@3x.png 3x" />
                 </a>
             </div>
-            <div>
-                <form action="#">
-                    <input type="text" placeholder="Подписаться на e-mail рассылку">
-                    <button>></button>
-                </form>
-            </div>
-            <p>
+            <form class="form-container" action="#">
+                <input class="form-input" type="text" placeholder="Подписаться на e-mail рассылку">
+                <button class="form-button">></button>
+            </form>
+            <p class="copyright">
                 © 2008 - 2020. Все права защищены. 
                 Вся информация на сайте принадлежит интернет-магазину lux-fair.ru. 
                 Публикация информации с сайта lux-fair.ru без разрешения запрещена.

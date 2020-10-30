@@ -1,0 +1,52 @@
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+h1, h2, h3, h4, h5, h6, ul, p {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+ul {
+    list-style: none;
+}
+body {
+    font-family: Nanum Gothic;
+}
+// Container styles
+.container {
+    max-width: 375px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.is-hidden {
+    display: none;
+    pointer-events: none;
+}
+.collection-section {
+    margin-bottom: 40px;
+    text-align: left;
+}
+.relative {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.gender-section-container {
+    margin-bottom: 50px;
+}
+.link {
+    color: #6D6A6A;
+    text-decoration: none;
+}
