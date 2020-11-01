@@ -1,13 +1,55 @@
 .for-her-section {
-    width: auto;
-    margin-bottom: 240px;
+    @media screen and (max-width: 165px) {
+        margin-bottom: 100px;
+    }
+    @media screen and (min-width: 166px) and (max-width: 180px) {
+        margin-bottom: 105px;
+    }
+    @media screen and (min-width: 181px) and (max-width: 200px) {
+        margin-bottom: 120px;
+    }
+    @media screen and (min-width: 201px) and (max-width: 250px) {
+        margin-bottom: 120px;
+    }
+    @media screen and (min-width: 251px) and (max-width: 280px) {
+        margin-bottom: 145px;
+    }
+    @media screen and (min-width: 281px) and (max-width: 300px) {
+        margin-bottom: 145px;
+    }
+    @media screen and (min-width: 301px) and (max-width: 350px) {
+        margin-bottom: 180px;
+    }
+    @media screen and (min-width: 351px) {
+        margin-bottom: 240px;
+    }
+    // margin-bottom: 240px;
 }
 .for-her-section-bg-image {
-    max-width: 250px;
+    display: inline-block;
+    max-width: 100%;
 }
 .for-her-section-image {
     position: absolute;
-    top: 50%;
+    @media screen and (max-width: 165px) {
+        top: 30%;
+    }
+    @media screen and (min-width: 166px) and (max-width: 180px) {
+        top: 33%;
+    }
+    @media screen and (min-width: 181px) and (max-width: 250px) {
+        top: 40%;
+    }
+    @media screen and (min-width: 251px) and (max-width: 280px) {
+        top: 43%;
+    }
+    @media screen and (min-width: 281px) and (max-width: 300px) {
+        top: 48%;
+    }
+    @media screen and (min-width: 301px) {
+        top: 50%;
+    }
+    // top: 50%;
     left: 50%;
     transform: translate(-50%, -45%);
 }

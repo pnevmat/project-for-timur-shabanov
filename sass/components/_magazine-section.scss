@@ -2,40 +2,192 @@
     margin-bottom: 40px;
 }
 .magazine-container {
-   margin-bottom: 70px;
+    @media screen and (max-width: 200px) {
+        margin-bottom: 40px;
+    }
+    @media screen and (min-width: 201px) and (max-width: 250px) {
+        margin-bottom: 40px;
+    }
+    @media screen and (min-width: 251px) and (max-width: 330px) {
+        margin-bottom: 50px;
+    }
+    @media screen and (min-width: 331px) {
+        margin-bottom: 70px;
+    }
+    // margin-bottom: 70px;
+}
+.in-trend-bg-image {
+    display: inline-block;
+    // width: 100%;
 }
 .description-container {
     position: absolute;
-    top: 64%;
-    left: 39%;
-    padding: 20px 16px 20px 16px;
-    background-color: #ffffff;
-    width: 207px;
-    height: 67px;
+    top: 65%;
+    @media screen and (max-width: 166px) {
+        left: 18%;
+    }
+    @media screen and (min-width: 167px) and (max-width: 200px) {
+        left: 29%;
+    }
+    @media screen and (min-width: 201px) and (max-width: 214px) {
+        left: 33%;
+    }
+    @media screen and (min-width: 215px) and (max-width: 220px) {
+        left: 38%;
+    }
+    @media screen and (min-width: 221px) and (max-width: 240px) {
+        left: 41%;
+    }
+    @media screen and (min-width: 241px) {
+        left: 42%;
+    }
+    // left: 42%;
+    @media screen and (max-width: 200px) {
+        max-width: 98px;
+    }
+    @media screen and (min-width: 201px) and (max-width: 240px) {
+        max-width: 107px;
+    }
+    @media screen and (min-width: 241px) and (max-width: 260px) {
+        max-width: 117px;
+    }
+    @media screen and (min-width: 261px) and (max-width: 300px) {
+        max-width: 150px;
+    }
+    @media screen and (min-width: 301px) and (max-width: 350px) {
+        max-width: 180px;
+    }
+    // max-width: 207px;
+    // height: 67px;
+    @media screen and (max-width: 166px) {
+        height: 20px;
+        padding: 5px 3px 3px 3px;
+    }
+    @media screen and (min-width: 167px) and (max-width: 200px) {
+        height: 25px;
+        padding: 5px 3px 3px 3px;
+    }
+    @media screen and (min-width: 201px) and (max-width: 217px) {
+        height: 35px;
+        padding: 4px 3px 3px 3px;
+    }
+    @media screen and (min-width: 218px) and (max-width: 266px) {
+        height: 42px;
+        padding: 8px 0px 7px 0px;  
+    }
+    @media screen and (min-width: 267px) and (max-width: 315px) {
+        height: 47px;
+        padding: 14px 0px 7px 0px;  
+    }
+    @media screen and (min-width: 316px) and (max-width: 350px) {
+        height: 55px;
+        padding: 14px 0px 7px 0px;  
+    }
+    @media screen and (min-width: 351px) {
+        height: 67px;
+        padding: 14px 13px 9px 20px;  
+    }
 
-    // outline: 1px solid tomato;
+    // padding: 20px 16px 20px 16px;
+    background-color: #ffffff;
 }
 .trends {
     top: 79%;
-    left: 39%;
+    // left: 38%;
 }
 .description {
-    font-size: 11px;
+    @media screen and (max-width: 166px) {
+        font-size: 4px;   
+    }
+    @media screen and (min-width: 167px) and (max-width: 200px) {
+        font-size: 5px;   
+    }
+    @media screen and (min-width: 201px) and (max-width: 260px) {
+        font-size: 7px;   
+    }
+    @media screen and (min-width: 261px) and (max-width: 315px) {
+        font-size: 8px;   
+    }
+    @media screen and (min-width: 316px) and (max-width: 364px) {
+        font-size: 9px;   
+    }
+    @media screen and (min-width: 365px) {
+        font-size: 11px;   
+    }
     text-align: left;
 }
 .jew-item-tiger-ring {
     position: absolute;
     top: 36%;
-    left: 42%;
+    left: 35%;
     transform: translate(-50%, -50%);
+    @media screen and (max-width: 180px) {
+        max-width: 37px;
+        max-height: 49px;  
+    }
+    @media screen and (min-width: 181px) and (max-width: 200px) {
+        max-width: 47px;
+        max-height: 59px;
+    }
+    @media screen and (min-width: 201px) and (max-width: 215px) {
+        max-width: 47px;
+        max-height: 59px;
+    }
+    @media screen and (min-width: 216px) and (max-width: 250px) {
+        max-width: 57px;
+        max-height: 69px;
+    }
+    @media screen and (min-width: 251px) and (max-width: 300px) {
+        max-width: 67px;
+        max-height: 79px;
+    }
+    @media screen and (min-width: 301px) and (max-width: 353px) {
+        max-width: 87px;
+        max-height: 99px;
+    }
+    @media screen and (min-width: 354px) {
+        max-width: 113px;
+        max-height: 132px;
+    }
 }
 .jew-item-tiger-snake {
     position: absolute;
     top: 30%;
-    left: 62%;
+    left: 75%;
     transform: translate(-50%, -50%);
+    @media screen and (max-width: 180px) {
+        max-width: 30px;
+        max-height: 40px;  
+    }
+    @media screen and (min-width: 181px) and (max-width: 200px) {
+        max-width: 35px;
+        max-height: 45px;
+    }
+    @media screen and (min-width: 201px) and (max-width: 215px) {
+        max-width: 35px;
+        max-height: 45px;
+    }
+    @media screen and (min-width: 216px) and (max-width: 250px) {
+        max-width: 45px;
+        max-height: 55px;
+    }
+    @media screen and (min-width: 251px) and (max-width: 300px) {
+        max-width: 55px;
+        max-height: 65px;
+    }
+    @media screen and (min-width: 301px) and (max-width: 353px) {
+        max-width: 75px;
+        max-height: 85px;
+    }
+    @media screen and (min-width: 354px) {
+        max-width: 98px;
+        max-height: 104px;
+    }
 }
 .magazine-button-container {
-    max-width: 700px;
-    text-align: right;
+    @media screen and (max-width: 150px) {
+        width: 100%;
+    }
+    // max-width: 700px;
+    text-align: center;
 }

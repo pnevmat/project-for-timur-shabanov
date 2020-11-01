@@ -1,14 +1,50 @@
 .main-header {
-    font-size: 24px;
+    @media screen and (max-width: 150px) {
+        font-size: 18px;
+    }
+    @media screen and (min-width: 151px) and (max-width: 200px) {
+        font-size: 18px;
+    }
+    @media screen and (min-width: 201px) and (max-width: 300px) {
+        font-size: 20px;
+    }
+    @media screen and (min-width: 301px) {
+        font-size: 24px;
+    }
+    // font-size: 24px;
     text-align: left;
 }
 .section-header {
-    font-size: 18px;
+    @media screen and (max-width: 150px) {
+        font-size: 14px;
+    }
+    @media screen and (min-width: 151px) and (max-width: 200px) {
+        font-size: 14px;
+    }
+    @media screen and (min-width: 201px) and (max-width: 300px) {
+        font-size: 16px;
+    }
+    @media screen and (min-width: 301px) {
+        font-size: 18px;
+    }
+    // font-size: 18px;
     text-align: left;
+}
+.main-header ~ .section-header {
+    margin-bottom: 2px;
 }
 .collection-header {
     margin-bottom: 34px;
-    font-size: 20px;
+    @media screen and (max-width: 150px) {
+        font-size: 16px;
+    }
+    @media screen and (min-width: 151px) and (max-width: 300px) {
+        font-size: 16px;
+    }
+    @media screen and (min-width: 301px) {
+        font-size: 20px;
+    }
+    // font-size: 20px;
     font-weight: normal;
     text-align: center;
 }
@@ -17,7 +53,18 @@
     top: 30%;
     left: 49%;
     transform: translate(-50%, -30%);
-    font-size: 24px;
+    @media screen and (max-width: 150px) {
+        width: 75px;
+        font-size: 18px;
+    }
+    @media screen and (min-width: 151px) and (max-width: 300px) {
+        width: 75px;
+        font-size: 18px;
+    }
+    @media screen and (min-width: 301px) {
+        font-size: 24px;
+    }
+    // font-size: 24px;
     font-weight: 700;
     opacity: 60%;
 
@@ -27,14 +74,37 @@
     top: 30%;
     left: 49%;
     transform: translate(-50%, -50%);
-    font-size: 24px;
+    @media screen and (max-width: 150px) {
+        width: 75px;
+        font-size: 18px;
+    }
+    @media screen and (min-width: 151px) and (max-width: 300px) {
+        width: 75px;
+        font-size: 18px;
+    }
+    @media screen and (min-width: 301px) {
+        font-size: 24px;
+    }
+    // font-size: 24px;
     font-weight: 700;
     opacity: 60%;
 
 }
 .magazine-header {
     margin-bottom: 26px;
-    font-size: 24px;
+    @media screen and (max-width: 150px) {
+        font-size: 18px;
+    }
+    @media screen and (min-width: 151px) and (max-width: 200px) {
+        font-size: 18px;
+    }
+    @media screen and (min-width: 201px) and (max-width: 300px) {
+        font-size: 18px;
+    }
+    @media screen and (min-width: 301px) {
+        font-size: 24px;
+    }
+    // font-size: 24px;
     font-weight: normal;
     opacity: 75%;
 }

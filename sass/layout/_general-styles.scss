@@ -13,35 +13,39 @@ ul {
 }
 body {
     font-family: Nanum Gothic;
+    text-align: center;
 }
+img {
+    display: block;
+    max-width: 100%;
+}
+* {outline: 1px solid tomato;}
 // Container styles
+.section {
+    display: inline-block;
+    max-width: 375px;
+}
 .container {
     max-width: 375px;
     padding-left: 12px;
     padding-right: 12px;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
 }
-.header {
+.header-section {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-top: 7px;
     padding-bottom: 7px;
 }
-.is-hidden {
-    display: none;
-    pointer-events: none;
+.hero-section {
+    display: inline-block;
+    text-align: center;
 }
 .collection-section {
     margin-bottom: 40px;
     text-align: left;
-}
-.relative {
-    position: relative;
-    top: 0;
-    left: 0;
 }
 .gender-section-container {
     margin-bottom: 50px;
@@ -49,4 +53,13 @@ body {
 .link {
     color: #6D6A6A;
     text-decoration: none;
+}
+.relative {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.is-hidden {
+    display: none;
+    pointer-events: none;
 }

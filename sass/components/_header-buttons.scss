@@ -1,50 +1,141 @@
 .menu-button {
-    width: 44px;
-    height: 38px;
-    padding-top: 17px;
-    padding-right: 11px;
-    padding-bottom: 11px;
-    padding-left: 17px;
+    @media screen and (max-width: 224px) {
+        max-width: 22px;
+        max-height: 22px;
+        padding: 3px 3px 3px 3px;
+        margin-bottom: 10px;
+    }
+    @media screen and (min-width: 225px) and (max-width: 250px) {
+        max-width: 30px;
+        max-height: 30px;
+        padding: 3px 3px 3px 3px;
+        margin-right: 6px;
+    }
+    @media screen and (min-width: 251px) and (max-width: 300px) {
+        max-width: 44px;
+        max-height: 38px;
+        padding: 3px 3px 3px 3px;
+        margin-right: 12px;
+    }
+    @media screen and (min-width: 301px) {
+        max-width: 44px;
+        max-height: 38px;
+        padding: 17px 11px 11px 17px;
+        margin-right: 12px;
+    }
+    // max-width: 44px;
+    // max-height: 38px;
+    // padding-top: 17px;
+    // padding-right: 11px;
+    // padding-bottom: 11px;
+    // padding-left: 17px;
     background-color: #ffffff;
     border: none;
 }
 .menu-icon {
-    width: 17px;
-    height: 11px;
+    @media screen and (max-width: 200px) {
+        max-width: 25px;
+        max-height: 25px;
+    }
+    @media screen and (min-width: 201px) {
+        max-width: 17px;
+        max-height: 11px;
+    }
 }
 .magnifying-glass-button {
     background-color: #ffffff;
     border: none;
 }
 .magnifying-glass {
-    width: 15px;
-    height: 15px;
+    max-width: 15px;
+    max-height: 15px;
 }
 .favorites-button {
-    width: 36px;
-    height: 35px;
-    padding-top: 10px;
-    padding-right: 7px;
-    padding-bottom: 7px;
-    padding-left: 7px;
+    @media screen and (max-width: 224px) {
+        max-width: 25px;
+        max-height: 25px;
+        padding: 3px 3px 3px 3px;
+        margin-bottom: 10px;
+    }
+    @media screen and (min-width: 225px) and (max-width: 250px) {
+        max-width: 25px;
+        max-height: 25px;
+        padding-top: 3px;
+        padding-right: 3px;
+        padding-bottom: 3px;
+        padding-left: 3px;
+        margin-right: 6px;
+    }
+    @media screen and (min-width: 251px) {
+        max-width: 36px;
+        max-height: 35px;
+        padding: 10px 7px 7px 7px;
+        margin-right: 12px;
+    }
+    // max-width: 36px;
+    // max-height: 35px;
+    // padding: 10px 7px 7px 7px;
     background-color: #ffffff;
     border: none;
 }
 .favorites-icon {
-    width: 22px;
-    height: 18px;
+    @media screen and (max-width: 150px) {
+        max-width: 17px;
+        max-height: 14px;
+    }
+    @media screen and (min-width: 158px) and (max-width: 200px) {
+        max-width: 18px;
+        max-height: 15px;
+    }
+    @media screen and (min-width: 201px) {
+        max-width: 20px;
+        max-height: 16px;
+    }
 }
 .curt-button {
-    width: 36px;
-    height: 38px;
-    padding-top: 13px;
-    padding-right: 13px;
-    padding-bottom: 7px;
-    padding-left: 5px;
+    @media screen and (max-width: 157px) {
+        max-width: 25px;
+        max-height: 25px;
+        padding: 3px 3px 3px 3px;
+    }
+    @media screen and (min-width: 158px) and (max-width: 230px) {
+        max-width: 25px;
+        max-height: 25px;
+        padding: 4px 0px 3px 0px;
+    }
+    @media screen and (min-width: 231px) and (max-width: 250px) {
+        max-width: 30px;
+        max-height: 30px;
+        // padding: 3px 3px 3px 3px;
+    }
+    @media screen and (min-width: 251px) {
+        max-width: 36px;
+        max-height: 38px;
+        padding: 13px 13px 7px 5px;
+    }
+    // max-width: 36px;
+    // max-height: 38px;
+    // padding: 13px 13px 7px 5px;
     background-color: #ffffff;
     border: none;
 }
 .curt-icon {
-    width: 14px;
-    height: 18px;
+    @media screen and (max-width: 150px) {
+        max-width: 18px;
+        max-height: 22px;
+    }
+    @media screen and (min-width: 158px) and (max-width: 199px) {
+        max-width: 26px;
+        max-height: 26px;
+    }
+    @media screen and (min-width: 200px) and (max-width: 250px) {
+        max-width: 25px;
+        max-height: 25px;
+    }
+    @media screen and (min-width: 251px) {
+        max-width: 14px;
+        max-height: 18px;
+    }
+    // max-width: 14px;
+    // max-height: 18px;
 }

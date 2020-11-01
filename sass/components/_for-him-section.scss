@@ -1,13 +1,67 @@
 .for-him-section {
-    width: auto;
-    margin-bottom: 395px;
+    @media screen and (max-width: 165px) {
+        margin-bottom: 157px;
+    }
+    @media screen and (min-width: 166px) and (max-width: 180px) {
+        margin-bottom: 175px;
+    }
+    @media screen and (min-width: 181px) and (max-width: 200px) {
+        margin-bottom: 195px;
+    }
+    @media screen and (min-width: 201px) and (max-width: 225px) {
+        margin-bottom: 218px;
+    }
+    @media screen and (min-width: 226px) and (max-width: 250px) {
+        margin-bottom: 238px;
+    }
+    @media screen and (min-width: 251px) and (max-width: 270px) {
+        margin-bottom: 260px;
+    }
+    @media screen and (min-width: 271px) and (max-width: 300px) {
+        margin-bottom: 280px;
+    }
+    @media screen and (min-width: 301px) and (max-width: 320px) {
+        margin-bottom: 290px;
+    }
+    @media screen and (min-width: 321px) and (max-width: 350px) {
+        margin-bottom: 330px;
+    }
+    @media screen and (min-width: 351px) {
+        margin-bottom: 395px;
+    }
+    // margin-bottom: 395px;
 }
 .for-him-section-bg-image {
-    max-width: 250px;
+    display: inline-block;
+    max-width: 100%;
 }
 .for-him-section-image {
     position: absolute;
-    top: 50%;
+    @media screen and (max-width: 165px) {
+        top: 33%;
+    }
+    @media screen and (min-width: 166px) and (max-width: 180px) {
+        top: 36%;
+    }
+    @media screen and (min-width: 181px) and (max-width: 200px) {
+        top: 42%;
+    }
+    @media screen and (min-width: 201px) and (max-width: 225px) {
+        top: 43%;
+    }
+    @media screen and (min-width: 226px) and (max-width: 250px) {
+        top: 44%;
+    }
+    @media screen and (min-width: 251px) and (max-width: 270px) {
+        top: 45%;
+    }
+    @media screen and (min-width: 271px) and (max-width: 300px) {
+        top: 49%;
+    }
+    @media screen and (min-width: 301px) {
+        top: 50%;
+    }
+    // top: 50%;
     left: 50%;
     transform: translate(-50%, -49%);
     margin-bottom: 20px;
