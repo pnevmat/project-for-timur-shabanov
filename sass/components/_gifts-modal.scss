@@ -1,0 +1,60 @@
+.gifts-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 291px;
+    background-color: transparent;
+    overflow-y: scroll;
+    opacity: 1;
+}
+.gifts-backdrop.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+.gifts-modal {
+    position: absolute;
+    top: 68%;
+    left: calc(50% + 1px);
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 376px;
+    padding: 0 25px 11px 25px;
+    background-color: #ffffff;
+    text-align: left;
+
+}
+.gifts-button-container {
+    padding: 17px 0 16px 20px;
+    border-bottom: 1px solid #B1B1B1;
+}
+.gifts-modal-button {
+    padding: 0 0 0 0;
+    border: none;
+    background-color: #ffffff;
+    font-size: 18px;
+    font-family: Nanum Gothic;
+}
+.list-item-header {
+    padding-top: 16px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #B1B1B1;
+}
+.gifts-header {
+    font-size: 18px;
+    font-weight: normal;
+    color: #000000;
+}
+.gifts-list-item {
+    height: 62px;
+    padding-top: 16px;
+    padding-bottom: 15px;
+    padding-left: 8px;
+    border-bottom: 1px solid #B1B1B1;
+}
+.gifts-modal-link {
+    font-size: 14px;
+    font-family: Nanum Gothic;
+    color: #000000;
+    text-decoration: none;
+}

@@ -47,11 +47,12 @@ img {
 }
 .header-content {
     position: fixed;
-    top: calc(10% - 7px);
+    top: 0;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 0);
+    z-index: 2;
     width: 100%;
-    max-width: 375px;
+    max-width: 376px;
     border: none;
     background-color: #ffffff;
 }

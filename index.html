@@ -18,28 +18,6 @@
                     <img class="magnifying-glass" src="./img/magnifying-glass-icon.png" alt="" srcset="./img/magnifying-glass-icon@2x.png 2x, ./img/magnifying-glass-icon@3x.png 3x" />
                 </button>
             </div>
-            <div class="menu-backdrop is-hidden">
-                <div class="menu-modal">
-                    <p>Main modal</p>
-                    <button type="button">
-                        <img src="./img/profile-icon.png" alt="" srcset="./img/profile-icon@2x.png 2x, ./img/profile-icon@3x.png 3x" />
-                    </button>
-                    <button type="button">Ювелирные украшения</button>
-                    <button type="button">Подарки</button>
-                    <a href="#">Бренды</a>
-                    <a href="#">Акции</a>
-                    <a href="#">Журнал</a>
-                </div>
-            </div>
-            <div class="is-hidden">
-                <p>profile modal</p>
-            </div>
-            <div class="is-hidden">
-                <p>juvelry modal</p>
-            </div>
-            <div class="is-hidden">
-                <p>gifts modal</p>
-            </div>
             <img class="logo" src="./img/logo-icon.png" alt="" srcset="./img/logo-icon@2x.png 2x, ./img/logo-icon@3x.png 3x" />
             <div>
                 <button type="button" class="favorites-button">
@@ -185,8 +163,110 @@
             </p>
         </div>
     </footer>
-    <div></div>
-    <div></div>
-    <div></div>
+    <div class="menu-backdrop is-hidden">
+        <div class="menu-modal">
+            <div class="profile-container">
+                <button class="menu-modal-button profile-button" type="button">
+                    <img src="./img/profile-icon.png" alt="" srcset="./img/profile-icon@2x.png 2x, ./img/profile-icon@3x.png 3x" />
+                </button>
+            </div>
+            <ul class="button-list">
+                <p>Main modal</p>
+                <li class="button-list-item">
+                    <button class="menu-modal-button" type="button">Ювелирные украшения</button>
+                </li>
+                <li class="button-list-item">
+                    <button class="menu-modal-button" type="button">Подарки</button>
+                </li>
+                <li class="button-list-item">
+                    <a class="menu-modal-link" href="#">Бренды</a>
+                </li>
+                <li class="button-list-item">
+                    <a class="menu-modal-link" href="#">Акции</a>
+                </li>
+                <li class="button-list-item">
+                    <a class="menu-modal-link" href="#">Журнал</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="favorites-backdrop is-hidden">
+        <div class="favorites-modal">
+            <p>favorites modal</p>
+            <h2 class="chosen-header">Избранное</h2>
+            <p class="chosen-list">Список избранных изделий пуст</p>
+            <h3 class="recomendation-header">Рекомендуем</h3>
+            <p>slider</p>
+        </div>
+    </div>
+    <div class="cart-backdrop is-hidden">
+        <div class="cart-modal">
+            <p>cart modal</p>
+            <h2 class="cart-header">Корзина</h2>
+            <p class="cart-list">Ваша корзина пуста</p>
+            <h3 class="recomendation-header">Рекомендуем</h3>
+            <p>slider</p>
+        </div>
+    </div>
+    <div class="profile-backdrop is-hidden">
+        <div class="profile-modal">
+            <p>profile modal</p>
+            <h2 class="profile-header">Профиль</h2>
+            <form action="#">
+                <input class="profile-input" type="email" placeholder="Ваш E-mail">
+                <input class="profile-input" type="text" placeholder="Пароль">
+                <div class="profile-container">
+                    <div class="checkbox-flex">
+                        <input class="profile-checkbox" type="checkbox" name="remember-me" id="remember-me">
+                        <label for="remember-me">Запомнить меня</label>
+                    </div>
+                    <a href="#">Забыли пароль?</a>
+                </div>
+                <button class="profile-modal-button" type="button">Войти</button>
+            </form>
+            <a class="profile-modal-button profile-link" href="#">Зарегистрироваться</a>
+        </div>
+    </div>
+    <div class="juvelry-backdrop is-hidden">
+        <div class="juvelry-modal">
+            <p>juvelry modal</p>
+            <div class="juvelry-button-container">
+                <button class="juvelry-modal-button" type="button">Меню</button>
+            </div>
+            <ul>
+                <li class="list-item-header">
+                    <h2 class="juvelry-header">Ювелирные украшения</h2>
+                </li>
+                <li class="juvelry-list-item">
+                    <a class="juvelry-modal-link" href="#">Женские</a>
+                </li>
+                <li class="juvelry-list-item">
+                    <a class="juvelry-modal-link" href="#">Мужские</a>
+                </li>
+                <li class="juvelry-list-item">
+                    <a class="juvelry-modal-link" href="#">Детские</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="gifts-backdrop is-hidden">
+        <div class="gifts-modal">
+            <p>gifts modal</p>
+            <div class="gifts-button-container">
+                <button class="gifts-modal-button" type="button">Меню</button>
+            </div>
+            <ul>
+                <li class="list-item-header">
+                    <h2 class="gifts-header">Подарки</h2>
+                </li>
+                <li class="gifts-list-item">
+                    <a class="gifts-modal-link" href="#">Женские</a>
+                </li>
+                <li class="gifts-list-item">
+                    <a class="gifts-modal-link" href="#">Мужские</a>
+                </li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
