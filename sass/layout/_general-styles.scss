@@ -19,7 +19,7 @@ img {
     display: block;
     max-width: 100%;
 }
-* {outline: 1px solid tomato;}
+// * {outline: 1px solid tomato;}
 // Container styles
 .section {
     display: inline-block;
@@ -38,6 +38,22 @@ img {
     justify-content: space-between;
     padding-top: 7px;
     padding-bottom: 7px;
+}
+.header-container {
+    width: 100%;
+    max-width: 375px;
+    height: 57px;
+    border: none;
+}
+.header-content {
+    position: fixed;
+    top: calc(10% - 7px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 375px;
+    border: none;
+    background-color: #ffffff;
 }
 .hero-section {
     display: inline-block;
