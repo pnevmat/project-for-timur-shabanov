@@ -23,14 +23,12 @@
         padding: 17px 11px 11px 17px;
         margin-right: 12px;
     }
-    // max-width: 44px;
-    // max-height: 38px;
-    // padding-top: 17px;
-    // padding-right: 11px;
-    // padding-bottom: 11px;
-    // padding-left: 17px;
     background-color: #ffffff;
     border: none;
+    &:hover,
+    &:focus {
+        outline: none;
+    }
 }
 .menu-icon {
     @media screen and (max-width: 200px) {
@@ -72,11 +70,12 @@
         padding: 10px 7px 7px 7px;
         margin-right: 12px;
     }
-    // max-width: 36px;
-    // max-height: 35px;
-    // padding: 10px 7px 7px 7px;
     background-color: #ffffff;
     border: none;
+    &:hover,
+    &:focus {
+        outline: none;
+    }
 }
 .favorites-icon {
     @media screen and (max-width: 150px) {

@@ -1,20 +1,21 @@
 .menu-backdrop {
     position: fixed;
-    top: 0;
+    top: 14%;
     left: 0;
     width: 100%;
     height: 291px;
     background-color: transparent;
-    overflow-y: scroll;
-    opacity: 1;
-}
-.menu-backdrop.is-hidden {
+    // overflow-y: scroll;
     opacity: 0;
-    pointer-events: none;
+}
+.menu-backdrop.is-open {
+    opacity: 1;
+    pointer-events: all;
+    z-index: 3;
 }
 .menu-modal {
     position: absolute;
-    top: 89%;
+    top: 66%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
@@ -22,9 +23,10 @@
     padding: 18px 17px 16px 19px;
     background-color: #ffffff;
     text-align: left;
+    pointer-events: all;
 
 }
-.profile-container {
+.menu-profile-container {
     position: relative;
     width: 100%;
     text-align: right;
@@ -47,13 +49,8 @@
     height: 20px;
     margin-bottom: 17px;
 }
-
-// Этот стиль убрать и сделать на лишку размер и падинг и поставить нижний бордер
 .button-list {
     padding-left: 2px;
-    // & :not(:last-child) {
-    //     margin-bottom: 34px;
-    // }
 }
 .button-list-item {
     height: 62px;

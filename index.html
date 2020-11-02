@@ -11,7 +11,7 @@
     <header class="container header-container">
         <div class="container header-section header-content">
             <div>
-                <button class="menu-button">
+                <button class="menu-button" menu-button>
                     <img class="menu-icon" src="./img/mobile-menu-icon.png" alt="" srcset="./img/mobile-menu-icon@2x.png 2x, ./img/mobile-menu-icon@3x.png 3x" />
                 </button>
                 <button type="button" class="magnifying-glass-button">
@@ -20,10 +20,10 @@
             </div>
             <img class="logo" src="./img/logo-icon.png" alt="" srcset="./img/logo-icon@2x.png 2x, ./img/logo-icon@3x.png 3x" />
             <div>
-                <button type="button" class="favorites-button">
+                <button type="button" class="favorites-button" favorites-button>
                     <img class="favorites-icon" src="./img/favorites-icon.png" alt="" srcset="./img/favorites-icon@2x.png 2x, ./img/favorites-icon@3x.png 3x" />
                 </button>
-                <button type="button" class="curt-button">
+                <button type="button" class="curt-button" cart-button>
                     <img class="curt-icon" src="./img/cart-icon.png" alt="" srcset="./img/cart-icon@2x.png 2x, ./img/cart-icon@3x.png 3x" />
                 </button>
             </div>
@@ -163,15 +163,15 @@
             </p>
         </div>
     </footer>
-    <div class="menu-backdrop is-hidden">
+    <div class="menu-backdrop" modal-menu>
         <div class="menu-modal">
-            <div class="profile-container">
+            <div class="menu-profile-container">
                 <button class="menu-modal-button profile-button" type="button">
                     <img src="./img/profile-icon.png" alt="" srcset="./img/profile-icon@2x.png 2x, ./img/profile-icon@3x.png 3x" />
                 </button>
             </div>
             <ul class="button-list">
-                <p>Main modal</p>
+                <!-- <p>Main modal</p> -->
                 <li class="button-list-item">
                     <button class="menu-modal-button" type="button">Ювелирные украшения</button>
                 </li>
@@ -190,18 +190,18 @@
             </ul>
         </div>
     </div>
-    <div class="favorites-backdrop is-hidden">
+    <div class="favorites-backdrop" favorites-modal-menu>
         <div class="favorites-modal">
-            <p>favorites modal</p>
+            <!-- <p>favorites modal</p> -->
             <h2 class="chosen-header">Избранное</h2>
             <p class="chosen-list">Список избранных изделий пуст</p>
             <h3 class="recomendation-header">Рекомендуем</h3>
             <p>slider</p>
         </div>
     </div>
-    <div class="cart-backdrop is-hidden">
+    <div class="cart-backdrop" cart-modal-menu>
         <div class="cart-modal">
-            <p>cart modal</p>
+            <!-- <p>cart modal</p> -->
             <h2 class="cart-header">Корзина</h2>
             <p class="cart-list">Ваша корзина пуста</p>
             <h3 class="recomendation-header">Рекомендуем</h3>
@@ -268,5 +268,8 @@
             </ul>
         </div>
     </div>
+    <script src="./js/menu-modal.js"></script>
+    <script src="./js/favorites-modal.js"></script>
+    <script src="./js/cart-modal.js"></script>
 </body>
 </html>
